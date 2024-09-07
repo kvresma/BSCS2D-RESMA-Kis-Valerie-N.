@@ -1,0 +1,39 @@
+body {
+    background-image: url(cakes.jpg);
+    padding: 20px;
+}
+h1, h2, p {
+    text-align: center;
+}
+.established {
+    font-style: italic;
+}
+.menu{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(182, 94, 53);
+    padding: 20px;
+    max-width: 500px;
+}
+hr {
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+  }
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
