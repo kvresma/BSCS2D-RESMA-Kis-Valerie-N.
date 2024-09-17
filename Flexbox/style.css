@@ -1,0 +1,56 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-image: url(red.jpg);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+.form {
+    margin:auto;
+}
+.box {
+    margin: 15px;
+    width: 65%;
+    padding: 12px;
+    border: 1px solid black;
+    outline: none;
+}
+.right {
+    display: flex;
+    width: 50%;
+    background-color: white;
+}
+.right img {
+    width: 400px;
+    height: 500px;
+    border-radius: 18px;
+    margin: auto;
+}
+.btn {
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+button:hover {
+    background-color: lightcoral;
+    color: red; 
+}
